@@ -31,6 +31,7 @@ console.log(age, typeof age);
 console.log(LearningJS, typeof LearningJS);
 console.log(city, typeof city);
 console.log(result, typeof result);
+
 Output:
 Gaganachukki string
 25 'number'
@@ -151,6 +152,12 @@ console.log("Age:", student.age);
 console.log("Course:", student.course);
 console.log("City:", student.city);
 
+output:
+Name: Gaganachukki
+Age: 25
+Course: JavaScript
+City: Salem
+
 
 10. Nested Object Practice
 
@@ -166,6 +173,10 @@ console.log("Company Name:", company.name);
 console.log("Trainer Name:", company.trainer.name);
 console.log("Trainer Subject:", company.trainer.subject);
 
+output:
+Company Name: The stackly
+Trainer Name: Naveen
+Trainer Subject: JavaScript
 
 
 
