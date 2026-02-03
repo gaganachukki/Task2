@@ -1,0 +1,175 @@
+1. Welcome Program
+
+let Name = prompt("Please Enter your Name:");
+let message = ("Hi " +Name+", Welcome to javascript Training");
+alert(message);
+console.log(message);
+Output: Hi Chukki, Welcome to javascript Training
+
+2. Console Methods Practice
+
+console.log(500);
+console.warn(500);
+console.error(500);
+console.clear();
+
+Output: 500
+!500
+X500(error)
+console CLeared
+
+3. Data Type Identification
+
+let Name = "Gaganachukki";
+let age = 25;
+let LearningJS = true;
+let city;
+let result = null;
+
+console.log(Name, typeof Name);
+console.log(age, typeof age);
+console.log(LearningJS, typeof LearningJS);
+console.log(city, typeof city);
+console.log(result, typeof result);
+Output:
+Gaganachukki string
+25 'number'
+true 'boolean'
+undefined 'undefined'
+null 'object'
+
+
+4. Arithmetic Operations
+let a= 20;
+let b= 5;
+
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+
+Output:
+25
+15
+100
+4
+0
+3200000
+
+5. Increment & Decrement
+let c = 10;
+
+console.log("Pre-Increment (++c):", ++c); 
+console.log("pre-increment:", c);
+
+console.log("Post-Increment (c++):", c++); 
+console.log("post-increment:", c);
+
+console.log("Pre-Decrement (--c):", --c); 
+console.log("pre-decrement:", c);
+
+console.log("Post-Decrement (c--):", c--); 
+console.log("post-decrement:", c);
+
+
+output:
+Pre-Increment (++c): 11
+pre-increment: 11
+Post-Increment (c++): 11
+post-increment: 12
+Pre-Decrement (--c): 11
+pre-decrement: 11
+Post-Decrement (c--): 11
+post-decrement: 10
+
+6. Assignment Operators
+
+let num = 10;
+num += 5; 
+console.log("num=num + 5 = ", num);
+
+num -= 5;
+console.log("num=num - 5 = ", num);
+
+num *= 5;
+console.log("num=num * 5 = ", num);
+
+num /= 5;
+console.log("num=num / 5 = ", num);
+
+num %= 5;
+console.log("num=num % 5 = ", num);
+
+Output:
+num=num + 5 =  15
+num=num - 5 =  10
+num=num * 5 =  50
+num=num / 5 =  10
+num=num % 5 =  0
+
+
+7. Array Access
+let Frontend = ['HTML', 'CSS', 'JavaScript', 'React'];
+
+console.log("First element:", Frontend[0]);
+console.log("Second element:", Frontend[1]);
+console.log("Last element:", Frontend[Frontend.length - 1]);
+console.log("Total elements:", Frontend.length);
+
+Output:
+First element: HTML
+Second element: CSS
+Last element: React
+Total elements: 4
+
+
+8. Modify Array
+
+let courses = ['HTML', 'CSS', 'JavaScript', 'React'];
+courses.push('NodeJS');
+console.log(courses);
+courses.pop();
+console.log(courses);
+
+Output:
+['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS']
+['HTML', 'CSS', 'JavaScript', 'React']
+
+
+9. Student Object
+
+let student = {
+  name: "Gaganachukki",
+  age: 25,
+  course: "JavaScript",
+  city: "Salem"
+};
+console.log("Name:", student.name);
+console.log("Age:", student.age);
+console.log("Course:", student.course);
+console.log("City:", student.city);
+
+
+10. Nested Object Practice
+
+let company = {
+  name: "The stackly",
+  location: "Bangalore",
+  trainer: {
+    name: "Naveen",
+    subject: "JavaScript"
+  }
+};
+console.log("Company Name:", company.name);
+console.log("Trainer Name:", company.trainer.name);
+console.log("Trainer Subject:", company.trainer.subject);
+
+
+
+
+
+
+
+
